@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michele TN Portfolio Demos</title>
+    <meta name="description" content="Production index for standalone GitHub Pages portfolio demos.">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #20242a;
+        background: #f7f8fa;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 46px 0 58px;
+      }
+
+      .hero {
+        margin-bottom: 28px;
+        padding: 34px;
+        border: 1px solid #e3e7ec;
+        border-radius: 10px;
+        background: #fff;
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: #146c94;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(36px, 6vw, 68px);
+        line-height: 1;
+      }
+
+      .lead {
+        max-width: 780px;
+        margin: 0;
+        color: #5c6572;
+        font-size: 20px;
+        line-height: 1.55;
+      }
+
+      .demo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .demo-card {
+        display: flex;
+        flex-direction: column;
+        min-height: 126px;
+        padding: 20px;
+        border: 1px solid #e3e7ec;
+        border-radius: 8px;
+        background: #fff;
+        color: #20242a;
+        text-decoration: none;
+        transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+      }
+
+      .demo-card:hover {
+        transform: translateY(-3px);
+        border-color: #146c94;
+        box-shadow: 0 12px 28px rgba(20, 108, 148, .12);
+      }
+
+      .demo-card strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 20px;
+      }
+
+      .demo-card span {
+        color: #5c6572;
+        line-height: 1.45;
+      }
+
+      @media (max-width: 880px) {
+        .demo-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 620px) {
+        main {
+          width: min(100% - 24px, 1120px);
+          padding-top: 24px;
+        }
+
+        .hero {
+          padding: 24px;
+        }
+
+        .demo-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Production Demo Index</p>
+        <h1>Michele TN Portfolio Demos</h1>
+        <p class="lead">Standalone portfolio variants ready for static publishing. Each demo folder contains its own HTML, CSS, JavaScript, and project.json data file.</p>
+      </section>
+
+      <section class="demo-grid" aria-label="Portfolio demo links">
+        <a class="demo-card" href="01-cayman/"><strong>01 Cayman</strong><span>Gradient hero and GitHub Pages style cards.</span></a>
+        <a class="demo-card" href="02-slate/"><strong>02 Slate</strong><span>Dark technical layout for engineering projects.</span></a>
+        <a class="demo-card" href="03-minimal/"><strong>03 Minimal</strong><span>Clean and compact two-column project directory.</span></a>
+        <a class="demo-card" href="04-architect/"><strong>04 Architect</strong><span>Structured documentation-style portfolio grid.</span></a>
+        <a class="demo-card" href="05-hacker/"><strong>05 Hacker</strong><span>Terminal-inspired dark presentation.</span></a>
+        <a class="demo-card" href="06-midnight/"><strong>06 Midnight</strong><span>High-contrast dark mode project index.</span></a>
+        <a class="demo-card" href="07-modernist/"><strong>07 Modernist</strong><span>Spacious modern card-based layout.</span></a>
+        <a class="demo-card" href="08-leap-day/"><strong>08 Leap Day</strong><span>Light documentation-style variant.</span></a>
+        <a class="demo-card" href="09-tactile/"><strong>09 Tactile</strong><span>Warm catalog layout with soft cards.</span></a>
+        <a class="demo-card" href="10-time-machine/"><strong>10 Time Machine</strong><span>Classic paper-toned portfolio presentation.</span></a>
+        <a class="demo-card" href="11-merlot/"><strong>11 Merlot</strong><span>Warm editorial theme with strong contrast.</span></a>
+        <a class="demo-card" href="12-dinky/"><strong>12 Dinky</strong><span>Compact retro-inspired project listing.</span></a>
+        <a class="demo-card" href="13-docs-purple/"><strong>13 Docs Purple</strong><span>Documentation-first purple-accent layout.</span></a>
+        <a class="demo-card" href="14-clean-archive/"><strong>14 Clean Archive</strong><span>Archive-style grid for many project cards.</span></a>
+        <a class="demo-card" href="15-chirpy/"><strong>15 Chirpy</strong><span>Modern blog/documentation inspired style.</span></a>
+        <a class="demo-card" href="16-hyde/"><strong>16 Hyde</strong><span>Dark background with bright content cards.</span></a>
+        <a class="demo-card" href="17-so-simple/"><strong>17 So Simple</strong><span>Minimal zero-radius readable directory.</span></a>
+        <a class="demo-card" href="18-alembic/"><strong>18 Alembic</strong><span>Soft green documentation and project grid.</span></a>
+        <a class="demo-card" href="19-high-contrast/"><strong>19 High Contrast</strong><span>Bold accessibility-focused black and white cards.</span></a>
+        <a class="demo-card" href="20-editorial/"><strong>20 Editorial</strong><span>Serif typography and warm publication feel.</span></a>
+        <a class="demo-card" href="21-blueprint/"><strong>21 Blueprint</strong><span>Blue technical layout for engineering projects.</span></a>
+        <a class="demo-card" href="22-steel/"><strong>22 Steel</strong><span>Neutral industrial UI with structured cards.</span></a>
+        <a class="demo-card" href="23-terminal-blue/"><strong>23 Terminal Blue</strong><span>Monospace dark console-inspired design.</span></a>
+        <a class="demo-card" href="24-card-wall/"><strong>24 Card Wall</strong><span>Dense four-column portfolio overview.</span></a>
+        <a class="demo-card" href="25-compact-list/"><strong>25 Compact List</strong><span>Single-column operational project list.</span></a>
+        <a class="demo-card" href="26-product/"><strong>26 Product</strong><span>Product-documentation style with green accents.</span></a>
+        <a class="demo-card" href="27-paper/"><strong>27 Paper</strong><span>Classic paper texture-inspired portfolio.</span></a>
+        <a class="demo-card" href="28-nord/"><strong>28 Nord</strong><span>Cool neutral palette inspired by Nord colors.</span></a>
+        <a class="demo-card" href="29-solar/"><strong>29 Solar</strong><span>Warm bright palette with readable cards.</span></a>
+        <a class="demo-card" href="30-monochrome/"><strong>30 Monochrome</strong><span>Neutral grayscale production layout.</span></a>
+      </section>
+    </main>
+  </body>
+</html>
