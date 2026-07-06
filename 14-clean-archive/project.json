@@ -1,0 +1,58 @@
+{
+  "portfolio": {
+    "eyebrow": "GitHub Pages Portfolio",
+    "title": "Michele TN Projects",
+    "description": "A standalone portfolio page for published project websites. Cards are loaded from the local project.json file."
+  },
+  "projects": [
+    {
+      "title": "SAP Reverse Proxy Add-on for mitmproxy",
+      "url": "https://michele-tn.github.io/SAP-Reverse-Proxy-Add-on-for-mitmproxy/",
+      "category": "Reverse Proxy",
+      "tags": ["SAP", "mitmproxy", "Windows"],
+      "description": "Browser-aware reverse proxy tooling for SAP web traffic, local routing, session handling, and controlled Windows deployments."
+    },
+    {
+      "title": "AVEVA Wonderware HTML5 PDF Viewer Widget",
+      "url": "https://michele-tn.github.io/AVEVA-Wonderware-HTML5-PDF-Viewer-Widget/",
+      "category": "AVEVA Widget",
+      "tags": ["AVEVA", "PDF.js", "CWP"],
+      "description": "HTML5 CWP widget for displaying PDF documents in AVEVA Wonderware and System Platform runtimes."
+    },
+    {
+      "title": "AVEVA Wonderware HTML5 Grid Widgets",
+      "url": "https://michele-tn.github.io/AVEVA-Wonderware-HTML5-Grid-Widgets/",
+      "category": "AVEVA Widget",
+      "tags": ["AG Grid", "Tabulator", "JSON"],
+      "description": "JSON-driven HTML5 grid widgets for industrial HMI screens, based on AG Grid and Tabulator."
+    },
+    {
+      "title": "Rebex Tiny Web Server Portable Builder",
+      "url": "https://michele-tn.github.io/Rebex-Tiny-Web-Server-Portable-Builder/",
+      "category": "Portable Tooling",
+      "tags": ["Rebex", "HTTPS", "Certificates"],
+      "description": "Builder for portable Rebex Tiny Web Server distributions with HTTP, HTTPS, generated certificates, and launch scripts."
+    },
+    {
+      "title": "SingBoxTunGui Encrypted Windows Distribution",
+      "url": "https://michele-tn.github.io/SingBoxTunGui-Encrypted-Windows-Distribution/",
+      "category": "Windows Distribution",
+      "tags": ["PowerShell", "AES", "Signing"],
+      "description": "Packaging workflow for a signed Windows executable distribution with encrypted PowerShell payloads and release checksums."
+    },
+    {
+      "title": "Codex Slash Commands Guide",
+      "url": "https://michele-tn.github.io/Codex-Slash-Commands-Guide/",
+      "category": "Developer Guide",
+      "tags": ["Codex", "CLI", "Workflow"],
+      "description": "Practical guide to Codex slash commands across desktop, IDE, CLI, and reusable engineering workflows."
+    },
+    {
+      "title": "Secure E-mail Notifications for Fail2Ban",
+      "url": "https://michele-tn.github.io/Secure-E-mail-Notifications-for-Fail2Ban-using-Gmail-SMTP-or-Gmail-API/",
+      "category": "Security Guide",
+      "tags": ["Fail2Ban", "Gmail", "OAuth2"],
+      "description": "Secure Fail2Ban notification setup using Gmail SMTP or Gmail API OAuth2 for Ubuntu VPS administration."
+    }
+  ]
+}
